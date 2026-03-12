@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 from yfinance import Ticker
+import pandas as pd
 
 def get_stock_data(ticker:str = "^GSPC", years: int = 5, path:str = "data/sp500.csv"):
     """Gets historic data for a ticker from yfinance API"""
@@ -10,7 +11,10 @@ def get_stock_data(ticker:str = "^GSPC", years: int = 5, path:str = "data/sp500.
 
 def read_data(path="data/pescados.csv"):
     """Lee los datos de un csv y te los devuelve"""
-    ...
+    file_path = 'data/sp500_2y.csv'
+    df = pd.read_csv(file_path)
+
+
 
 def main():
     get_stock_data()

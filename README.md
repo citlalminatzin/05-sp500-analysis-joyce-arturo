@@ -31,7 +31,7 @@ Nuestro análisis de los datos de las acciones del S&P500 durante el periodo 202
 Tras visualiza el precio de las acciones del S&P500 de los últimos 5 años podemos decir que dependen del precio anterior dado que se muestra una tendencia positiva alta. Podemos ver que dado el precio alto de años pasados, el actual también lo es y eso se visualiza en la gráfica de precio.
 ![Gráfica 1](grafica_precios.png)
 De modo contrario, los rendimientos de las acciones del S&P500 de los últimos 5 años son independientes, no hay correlación significativa entre el rendimiento de hoy y el de ayer. No es posible predecir con precisión la dirección de los rendimientos diarios dado que son aleatorios, no siguen una tendencia a diferencia del precio. En la segunda gráfica, la línea naranja que corresponde a los rendimientos es casi plana en el eje cero. A eso se le llama proceso de ruido blanco  y establece que lo que paso en años anteriores no da pistas a lo que pueda pasar en el año actual.  
-![Gráfica 3¿2](grafica_rendimientos.png)
+![Gráfica 2](grafica_rendimientos.png)
 Debido a este proceso de ruido blanco, es complicado tratar de predecir los rendimientos del S&P500, por lo que no pudimos encontrar una posible respuesta.
 
 Dentro de la inversión, consideramos que los CETES son una opción más confiable si se quieren invertir los ahorros a 1 año, aunque ambas opciones son arriesgadas, pero en el caso del S&P500 existe la probabilidad ed tener un año negativo. Es necesario considerarlo teniendo en cuenta si se quieren invertir todos los ahorros.

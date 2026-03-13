@@ -2,30 +2,33 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=23098989)
 # Análisis de S&P500
 
-Objetivo: leer un conjunto de datos para inferir conclusiones.
+En el presente proyecto analizaremos las acciones del S&P500 de los últimos 5 años, usando gráficas del comportamiento de los precios y rendimientos en base a argumentos matemáticos.
 
 ## Integrantes
 
 - Herrera Barrera Joyce
 - Góngora Ramírez Arturo
 
-
 ## Uso e instalación
 
-(Si no eliminas esta línea lloro) Aquí escribe qué necesitas que instale para ejecutar tu código, por ejemplo:
+Para leer el codigo es necesario instalar:
 
-- `matplotlib`
+- `matplotlib` (se usa dentro del `main.py`)
 - `yfinance` (para usar `data.py`)
+- `pandas` (para manipular los datos del DataFrame)
 
-(Si no eliminas esta línea lloro) Y dime cómo debería ejecutar tu código y en qué orden. Recuerda que antes de ejecutar tu código leeré tu `README.md`. Por ejemplo la manera en la que propongo que organizes tu código es
+Es necesario señalar:
 
-- `main.py`: Contiene el código para graficar cada uno de los tres ejercicios
-- `` (Por favor modifica esta línea)
+- `main.py`: Contiene el código para graficar cada uno de los tres ejercicios, descarga los datos del S&P 500, genera las gráficas de precios y rendimientos.
+- `data.py`: Contiene las funciones base encargadas de la extracción de datos financieros. El main ya lo importa.
+
+Para correr el análisis completo, debe ejecutarse el comando en la terminal: `python main.py`
 
 ## Ejercicio 
 
-(Por favor modifica esta línea, lo suplico por piedad) Aquí puedes colocar la discusión del modelo, tu interpretación, el efecto de las condiciones iniciales. No tiene que ser perfecto, pero entre más casos puedas cubrir mejor
+ Aquí puedes colocar la discusión del modelo, tu interpretación, el efecto de las condiciones iniciales. No tiene que ser perfecto, pero entre más casos puedas cubrir mejor
 
+Nuestro análisis de los datos de las acciones del S&P500 durante el periodo 2021-2026 es el  siguiente:
 
 ### También puedes agregar tablas y eliminar este sub encabezado
 
@@ -38,8 +41,5 @@ Objetivo: leer un conjunto de datos para inferir conclusiones.
 
 ## Conclusión
 
-(Por favor modifica esta línea bro, es la última que tienes que modificar bro, por favor bro) Es buena práctica concluir tus prácticas. ¿Qué te llevas? ¿Sientes que fue relevante para ti? ¿Se te complicó algún aspecto? ¿Hubo algún resultado que contradijera tu intuición? 
+En conclusión, la siguiente práctica se convirtió en un desafío de orden al no estra familiarizados con distribuir el código en partes para ejecutarlo y tratar unicamente con los datos, pero resultó más sencillo de lo que pensabamos. El análisis fue mucho más sencillo teniendo las gráficas a los datos que llegaron a ser intimidantes para nosotros en un principio. Consideramos esta práctica relevante para nuestra formación académica y profesional. Manipular y analizar estas cantidades de datos dentro de un código que arroja los resultados, nos quita la inseguridad de creer que no podemos lograrlo una vez que empezamos a trabajar en ello.
 
----
-
-[^1]: Sólo soy una nota al pie, elimíname bro, por favor bro.

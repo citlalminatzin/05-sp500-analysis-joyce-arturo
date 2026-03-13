@@ -2,23 +2,20 @@
 
 import matplotlib.pyplot as plt
 from models import calc_error, modelo_geom, modelo_circ
-
-
-def make_plot():
-    """
-    (Si no modificas esta cadena de texto lloro)
-    Si repites mucho tu código para
-    graficar puedes guardarlo en una función
-    """
-    ... # Esto significa implementación pendiente, lo puedes eliminar
+from data import get_stock_data
 
 def main():
-    """
-    (Si no modificas esta cadena de texto lloro)
-    Aquí va el código, recuerda reutilizar el 
-    código que ya escribiste en otros archivos
-    """
-    ... # Esto significa implementación pendiente, lo puedes eliminar
+    df = get_stock_data(years=5)
+    print(df.head())
+
+    # Precios
+    df['Close'].plot(title="Precio S&P 500 (Dependencia temporal alta)")
+    plt.savefig('grafica_precios.png')
+
+    # Rendimientos
+    rendimientos = df['Close'].pct_change()
+    rendimientos.plot(title="Rendimientos S&P 500 (Cercano a ruido blanco)")
+    plt.savefig('grafica_rendimientos.png')
 
 if __name__ == "__main__":
     main()

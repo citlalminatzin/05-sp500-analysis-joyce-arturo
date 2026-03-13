@@ -30,14 +30,11 @@ Para correr el análisis completo, debe ejecutarse el comando en la terminal: `p
 
 Nuestro análisis de los datos de las acciones del S&P500 durante el periodo 2021-2026 es el  siguiente:
 
-### También puedes agregar tablas y eliminar este sub encabezado
-
-| Elimíname | Elimíname a mí también |
-| -------------- | --------------- |
-| $1$ | $54$ |
-| $2$ | $1000$ |
-
-(Si no eliminas esta línea lloro) Y luego puedes comentar que con base en la tabla anterior, se ve una explosión en los valores a partir del tiempo $t=2$. 
+Tras visualiza el precio de las acciones del S&P500 de los últimos 5 años podemos decir que dependen del precio anterior dado que se muestra una tendencia positiva alta. Podemos ver que dado el precio alto de años pasados, el actual también lo es y eso se visualiza en la gráfica de precio.
+De modo contrario, los rendimientos de las acciones del S&P500 de los últimos 5 años son independientes, no hay correlación significativa entre el rendimiento de hoy y el de ayer. No es posible predecir con precisión la dirección de los rendimientos diarios dado que son aleatorios, no siguen una tendencia a diferencia del precio. En la segunda gráfica, la línea naranja que corresponde a los rendimientos es casi plana en el eje cero. A eso se le llama proceso de ruido blanco  y establece que lo que paso en años anteriores no da pistas a lo que pueda pasar en el año actual.  
+Debido a este proceso de ruido blanco, es complicado tratar de predecir los rendimientos del S&P500, por lo que no pudimos encontrar una posible respuesta.
+Dentro de la inversión, consideramos que los CETES son una opción más confiable si se quieren invertir los ahorros a 1 año, aunque ambas opciones son arriesgadas, pero en el caso del S&P500 existe la probabilidad ed tener un año negativo. Es necesario considerarlo teniendo en cuenta si se quieren invertir todos los ahorros.
+En caso de que la pérdida no afecta de forma sustancial del patrimonio, y aunque el año de inversión no sea favorable, es posible esperar que el mercado sea más estable o se recupere. De cualquier forma, es arriesagdo y nunca se debe invertir todo en un solo mercado. Si el plazo aumentara de 1 año a 20 años, es más rentable invertir en acciones del S&P500 debido a lo que vimos en la gráfica del precio y su tendencia positiva.
 
 ## Conclusión
 
